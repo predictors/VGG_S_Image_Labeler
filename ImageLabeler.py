@@ -36,6 +36,9 @@ class ImageLabeler:
 
             """
             This is the method used by Predictors.ai to interact with the model.
+            It is the only method that needs to be implemented to deploy the website on
+            Predictors.ai
+            
             Inputs:
             - pipe_id (integer): id of the pipe that has to be used.
             - input_data (dictionary): dictionary that contains the input data. The keys of the dictionary 
