@@ -1,4 +1,4 @@
-You can find the online demo of this predictor at https://predictors.ai/#/p/VGG_S_Image_Labeler .
+You can find the online demo of this predictor at https://predictors.ai/#/p/Image_Labeler_VGG_S .
 
 This predictor is based on the example for the python library Lasagne available at https://github.com/Lasagne/Recipes/blob/master/examples/ImageNet%20Pretrained%20Network%20(VGG_S).ipynb
 

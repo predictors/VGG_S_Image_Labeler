@@ -153,22 +153,22 @@ class ImageLabeler:
         """
 
         model_definition = {}
-        model_definition["name"] = "VGG_S Image Labeler"
+        model_definition["name"] = "Image Labeler VGG_S"
         model_definition["schema_version"] = "0.02"
         model_definition["environment_name"] = "python2.7.9_November19th2015"
-        model_definition["description"] = "This predictor is based on the example for the python" \
+        model_definition["description"] = "<b>This predictor tries to identify the object that appears in each " \
+                                          "image you upload.</b>" \
+                                          "<br /><br />" \
+                                          "It is based on the example for the python" \
                                           " library Lasagne available at https://github.com/Lasagne/Recipes" \
                                           "/blob/master/examples/ImageNet%20Pretrained%20Network%20(VGG_S).ipynb" \
                                           "<br /><br />" \
-                                          "<b>You can find the source code of this onine demo at: " \
+                                          "<b>You can find the source code of this online demo at: " \
                                           "https://github.com/predictors/VGG_S_Image_Labeler</b>" \
                                           "<br /><br />" \
-                                          "It demonstrates using a network pretrained on ImageNet for " \
+                                          "It demonstrates the use of a network pretrained on ImageNet for " \
                                           "classification. The model used was converted from the VGG_CNN_S model " \
-                                          "(http://arxiv.org/abs/1405.3531) in Caffe's Model Zoo." \
-                                          "<br /><br />" \
-                                          'For details of the conversion process, see the example notebook "Using' \
-                                          'a Caffe Pretrained Network - CIFAR10"'
+                                          "(http://arxiv.org/abs/1405.3531) in Caffe's Model Zoo."
 
         model_definition["retraining_allowed"] = False
         model_definition["base_algorithm"] = "Convolutional Neural Network"     
