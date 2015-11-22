@@ -36,7 +36,7 @@ class ImageLabeler:
 
             """
             This is the method used by Predictors.ai to interact with the model.
-            It is the only method that needs to be implemented to deploy the website on
+            It is the only method that needs to be implemented to deploy the model on
             Predictors.ai
             
             Inputs:
